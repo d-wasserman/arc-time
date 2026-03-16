@@ -34,8 +34,8 @@ import SharedArcNumericalLib as san
 
 def temporal_mean_center(inFeatureClass, outFeatureClass, start_time, end_time, time_interval, bin_start,
                          weight_field, case_field, dimension_field):
-    """ This tool will split a feature class into multiple kernel densities based on a datetime field and a
-    a set time interval. The result will be a time enabled moasic with Footprint. """
+    """ This tool will compute mean centers on a feature class split into time bins based on a datetime field
+    and a set time interval. The result will be a time-enabled merged feature class with bin metadata fields. """
     try:
         outWorkSpace = os.path.dirname(outFeatureClass)
         if arcpy.Exists(outWorkSpace):

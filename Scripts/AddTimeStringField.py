@@ -4,7 +4,7 @@
 # Author: David Wasserman
 # Last Modified: 2/7/2018
 # Copyright: David Wasserman
-# Python Version:   2.7-3.1
+# Python Version:   3.x
 # ArcGIS Version: 10.4 (Pro)
 # --------------------------------
 # Copyright 2016 David J. Wasserman

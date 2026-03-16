@@ -1,6 +1,6 @@
 # --------------------------------
 # Name: TemporalSplit.py
-# Purpose: Split a feature class based on either a single time or a start or end time based one a set date time.
+# Purpose: Split a feature class based on either a single time or a start or end time based on a set datetime.
 # Current Owner: David Wasserman
 # Last Modified: 2/7/2018
 # Copyright:   (c) Co-Adaptive- David Wasserman
